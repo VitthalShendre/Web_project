@@ -1,0 +1,47 @@
+/* ===== COMMON HEADER STYLE (FOR ALL PAGES) ===== */
+
+header {
+background: linear-gradient(90deg, #4f46e5, #9333ea);
+padding: 15px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #fff;
+}
+
+.logo {
+font-size: 24px;
+font-weight: 700;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 25px;
+}
+
+nav ul li {
+position: relative;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+}
+
+/* MOBILE RESPONSIVE HEADER */
+
+@media(max-width:600px) {
+
+header {
+flex-direction: column;
+gap: 10px;
+}
+
+nav ul {
+flex-direction: column;
+align-items: center;
+}
+
+}

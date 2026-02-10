@@ -1,0 +1,118 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+background: #f8f9fa;
+color: #333;
+}
+
+/* CONTACT SECTION */
+
+.features {
+padding: 60px;
+text-align: center;
+}
+
+.features h2 {
+font-size: 32px;
+margin-bottom: 30px;
+color: #111827;
+}
+
+/* FORM CARD */
+
+.contact-form {
+max-width: 500px;
+margin: auto;
+background: #ffffff;
+padding: 35px;
+border-radius: 16px;
+box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+/* LABEL */
+
+.contact-form label {
+font-weight: 600;
+display: block;
+margin-bottom: 6px;
+}
+
+/* INPUT FIELDS */
+
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 12px;
+border-radius: 8px;
+border: 2px solid #ddd;
+outline: none;
+margin-top: 5px;
+font-size: 15px;
+}
+
+/* FOCUS EFFECT */
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+border-color: #667eea;
+}
+
+/* TEXTAREA */
+
+.contact-form textarea {
+resize: none;
+height: 120px;
+}
+
+/* BUTTON */
+
+.contact-form button {
+background: linear-gradient(to right, #00c6ff, #0072ff);
+color: white;
+padding: 12px 25px;
+border: none;
+border-radius: 25px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+margin-top: 15px;
+width: 100%;
+box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+transition: 0.3s ease;
+}
+
+/* BUTTON HOVER */
+
+.contact-form button:hover {
+transform: scale(1.05);
+}
+
+/* SUCCESS MESSAGE (OPTIONAL) */
+
+#successMsg {
+text-align: center;
+font-size: 18px;
+color: #22c55e;
+font-weight: bold;
+margin-top: 15px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+
+.features {
+padding: 40px 20px;
+}
+
+.contact-form {
+width: 100%;
+padding: 25px;
+}
+
+}
